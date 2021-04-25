@@ -1,0 +1,20 @@
+[package]
+name = "wifimap"
+version = "0.1.0"
+authors = ["Cassaundra <cass@cassaundra.io>"]
+edition = "2018"
+
+[dependencies]
+csv = "1.1"
+futures = { version = "0.3", features = ["compat", "io-compat"] }
+geoutils = "0.4"
+gpsd_proto = "0.7"
+gpx = "0.8"
+rustyline = "8.0"
+serde = "1.0"
+serde_json = "1.0"
+tokio = { version = "1.5.0", features = ["full"] }
+tokio-util = { version = "0.6", features = ["codec"] }
+
+env_logger = "0.8"
+log = "0.4"
