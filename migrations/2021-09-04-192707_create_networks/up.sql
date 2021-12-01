@@ -1,0 +1,9 @@
+CREATE TABLE networks (
+  id INTEGER NOT NULL PRIMARY KEY,
+  bssid VARCHAR NOT NULL,
+  ssid VARCHAR,
+  mode VARCHAR NOT NULL,
+  channel INTEGER NOT NULL,
+  rate INTEGER NOT NULL,
+  security VARCHAR
+)
